@@ -7,8 +7,8 @@ var dialog = new Dialog({
   password: 'TKmv3QkOx8ek'
 });
 describe('dialog', function(){
-  it('.recognize', function(){
-    expect(dialog.recognize).to.be.a('function');
+  it('.getDialogs', function(){
+    expect(dialog.getDialogs).to.be.a('function');
   })
   it('.createDialog', function(){
     expect(dialog.createDialog).to.be.a('function');
