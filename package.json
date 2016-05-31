@@ -1,6 +1,6 @@
 {
   "name": "watson-dialog-wrapper",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "wrapper for watson dialog with cfenv",
   "main": "index.js",
   "scripts": {
