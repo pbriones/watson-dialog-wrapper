@@ -1,5 +1,4 @@
-Watson Dialog Wrapper
-=============
+# watson-dialog-wrapper
 
 Needed to use bluemix watson but didn't want to setup dialog service all the time with cfenv.
 
@@ -21,3 +20,6 @@ The rest of functionalities are directly from IBM Watson Dialog Service
 TODO
 -----------
 * Get Dialog by name instead of ID
+
+
+
