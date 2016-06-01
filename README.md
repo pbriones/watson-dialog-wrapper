@@ -6,20 +6,27 @@ Installation
 -----------
 
 ```
-npm install watson-dialog-wrapper --save-dev
+npm install watson-dialog-wrapper --save
 ```
 
 Usage
 -----------
+For Bluemix:
 ```
 var Dialog = require('watson-dialog-wrapper');
 var dialog = new Dialog('my-bluemix-dialog-service-name');
 
 The rest of functionalities are directly from IBM Watson Dialog Service
 ```
-TODO
------------
-* Get Dialog by name instead of ID
+For hardcoded Credentials:
 
+```
+var Dialog = require('watson-dialog-wrapper');
+var dialog = new Dialog({
+  username: <username>,
+  password: <password>,
+  <other dialog params>: <param value>
+});
 
-
+The rest of functionalities are directly from IBM Watson Dialog Service
+```
