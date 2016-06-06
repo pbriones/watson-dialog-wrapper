@@ -34,11 +34,10 @@ The rest of functionalities are directly from IBM Watson Dialog Service
 Added Functionalities
 -----------
 .getDialog(name, cb)
-
-success returns {dialog_id, name}
-
-fail returns null
 ```
+//success returns {dialog_id, name}
+//fail returns null
+
 dialog.getDialog('my dialog', function(err, dialog){
   if(err) return console.error(err);
   //do stuff with dialog
