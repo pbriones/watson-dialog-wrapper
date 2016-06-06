@@ -1,6 +1,6 @@
 {
   "name": "watson-dialog-wrapper",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "description": "wrapper for watson dialog",
   "main": "index.js",
   "scripts": {
